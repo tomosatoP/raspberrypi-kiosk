@@ -1,0 +1,51 @@
+.widget-forecast {
+    background-color: black;
+    color: rgba(255, 255, 255, 0.3);
+    font-size: 20px;
+
+    table {
+        table-layout: fixed;
+
+        th.table-date-col0 {
+            width: 5em;
+        }
+
+        th.table-date-col1 {
+            width: 6em;
+        }
+
+        th.table-date-col2 {
+            width: 6em;
+        }
+
+        th.table-date-col3 {
+            width: 5em;
+        }
+
+        td.table-tempMax-col0 {
+            width: 5em;
+        }
+
+        td.table-tempMax-col1 {
+            width: 6em;
+        }
+
+        td.table-tempMax-col2 {
+            width: 6em;
+        }
+
+        td.table-tempMax-col3 {
+            width: 5em;
+        }
+
+        td.table-area-col0 {
+            width: 5em;
+            text-align: right;
+        }
+
+        img.svg {
+            width: auto;
+            height: auto;
+        }
+    }
+}

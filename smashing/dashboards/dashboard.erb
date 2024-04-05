@@ -1,0 +1,23 @@
+<script type='text/javascript'>
+$(function() {
+  Dashing.widget_base_dimensions = [190, 42]
+  Dashing.numColumns = 4
+});
+</script>
+
+<% content_for :title do %>Dashboard<% end %>
+<div class="gridster">
+  <ul>
+    <li data-row="1" data-col="1" data-sizex="2" data-sizey="4">
+      <div data-id="tokei" data-view="Tokei" data-title="Digital Clock"></div>
+    </li>
+    <li data-row="1" data-col="2" data-sizex="1" data-sizey="4">
+      <div data-id="amedas" data-view="Amedas" data-title="Latest Amedas"></div>
+    </li>
+    <li data-row="1" data-col="3" data-sizex="1" data-sizey="4">
+      <div data-id="sensor" data-view="Sensor" data-title="Indoors Conditions"></div>
+    </li>
+    <li data-row="2" data-col="1" data-sizex="4" data-sizey="6">
+      <div data-id="forecast" data-view="Forecast" data-title="10days Weather Forecast"></div>
+    </li>
+</div>

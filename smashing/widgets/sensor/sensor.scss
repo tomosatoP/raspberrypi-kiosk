@@ -1,0 +1,12 @@
+.widget-sensor {
+    background-color: black;
+    color: rgba(255, 255, 255, 0.3);
+    font-size: 22px;
+
+    p.sensor_spot {
+        text-decoration: underline;
+        font-size: smaller;
+        font-weight: bolder;
+        line-height: 2;
+    }
+}

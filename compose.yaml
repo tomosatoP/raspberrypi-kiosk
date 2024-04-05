@@ -1,0 +1,21 @@
+services:
+  kiosk:
+    hostname: smashing
+    command: bundle exec smashing start -p 3030 -a "0.0.0.0"
+    build:
+      dockerfile: Dockerfile
+      context: .
+    ports:
+      - 3030:3030
+    working_dir: /smashing
+    volumes:
+      - ./smashing:/smashing
+    environment:
+      TZ: Asia/Tokyo
+    restart: always
+    networks:
+      - frontend
+
+networks:
+  frontend:
+    driver: bridge

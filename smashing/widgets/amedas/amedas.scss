@@ -1,0 +1,16 @@
+.widget-amedas {
+    background-color: black;
+    color: rgba(255, 255, 255, 0.3);
+    font-size: 22px;
+
+    p.header {
+        text-decoration: underline;
+        font-weight: bolder;
+        font-size: smaller;
+    }
+
+    p.amedas_time {
+        font-size: small;
+        line-height: 1.2;
+    }
+}

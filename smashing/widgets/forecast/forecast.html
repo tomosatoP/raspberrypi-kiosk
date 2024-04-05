@@ -1,0 +1,100 @@
+<table class="table-forecast">
+    <tr class="table-area">
+        <td class="table-area-col0">予報地域</td>
+        <td class="table-area-col1" data-bind="items.area[0]"></td>
+        <td class="table-area-col2" data-bind="items.area[1]"></td>
+    </tr>
+</table>
+
+<table class="table-forecast">
+    <tr class="table-date">
+        <th class="table-date-col0" align="right" data-bind="items.reportHour | append '時発報'"></th>
+        <th class="table-date-col1" data-bind="items.dates[0]"></th>
+        <th class="table-date-col2" data-bind="items.dates[1]"></th>
+        <th class="table-date-col3" data-bind="items.dates[2]"></th>
+        <th class="table-date-col4" data-bind="items.dates[3]"></th>
+        <th class="table-date-col5" data-bind="items.dates[4]"></th>
+        <th class="table-date-col6" data-bind="items.dates[5]"></th>
+        <th class="table-date-col7" data-bind="items.dates[6]"></th>
+        <th class="table-date-col8" data-bind="items.dates[7]"></th>
+    </tr>
+    <tr class="table-weather">
+        <td class="table-weather-col0" align="right">天気</td>
+        <td class="table-weather-col1"><img class="svg" alt=""
+                data-bind-src="items.weathers[0] | prepend 'https://www.jma.go.jp/bosai/forecast/img/'" /></td>
+        <td class="table-weather-col2"><img class="svg" alt=""
+                data-bind-src="items.weathers[1] | prepend 'https://www.jma.go.jp/bosai/forecast/img/'" /></td>
+        <td class="table-weather-col3"><img class="svg" alt=""
+                data-bind-src="items.weathers[2] | prepend 'https://www.jma.go.jp/bosai/forecast/img/'" /></td>
+        <td class="table-weather-col4"><img class="svg" alt=""
+                data-bind-src="items.weathers[3] | prepend 'https://www.jma.go.jp/bosai/forecast/img/'" /></td>
+        <td class="table-weather-col5"><img class="svg" alt=""
+                data-bind-src="items.weathers[4] | prepend 'https://www.jma.go.jp/bosai/forecast/img/'" /></td>
+        <td class="table-weather-col6"><img class="svg" alt=""
+                data-bind-src="items.weathers[5] | prepend 'https://www.jma.go.jp/bosai/forecast/img/'" /></td>
+        <td class="table-weather-col7"><img class="svg" alt=""
+                data-bind-src="items.weathers[6] | prepend 'https://www.jma.go.jp/bosai/forecast/img/'" /></td>
+        <td class="table-weather-col8"><img class="svg" alt=""
+                data-bind-src="items.weathers[7] | prepend 'https://www.jma.go.jp/bosai/forecast/img/'" /></td>
+    </tr>
+    <tr class="table-pop">
+        <td class="table-pop-col0" align="right">雨(%)</td>
+        <td class="table-pop-col1" data-bind="items.pops[0]"></td>
+        <td class="table-pop-col2" data-bind="items.pops[1]"></td>
+        <td class="table-pop-col3" data-bind="items.pops[2]"></td>
+        <td class="table-pop-col4" data-bind="items.pops[3]"></td>
+        <td class="table-pop-col5" data-bind="items.pops[4]"></td>
+        <td class="table-pop-col6" data-bind="items.pops[5]"></td>
+        <td class="table-pop-col7" data-bind="items.pops[6]"></td>
+        <td class="table-pop-col8" data-bind="items.pops[7]"></td>
+    </tr>
+    <tr class="table-rel">
+        <td class="table-rel-col0" align="right">信頼度</td>
+        <td class="table-rel-col1" data-bind="items.rels[0]"></td>
+        <td class="table-rel-col2" data-bind="items.rels[1]"></td>
+        <td class="table-rel-col3" data-bind="items.rels[2]"></td>
+        <td class="table-rel-col4" data-bind="items.rels[3]"></td>
+        <td class="table-rel-col5" data-bind="items.rels[4]"></td>
+        <td class="table-rel-col6" data-bind="items.rels[5]"></td>
+        <td class="table-rel-col7" data-bind="items.rels[6]"></td>
+        <td class="table-rel-col8" data-bind="items.rels[7]"></td>
+    </tr>
+</table>
+
+<table class="table-forecast">
+    <tr class="table-area">
+        <td class="table-area-col0">予報地点</td>
+        <td class="table-area-col1" data-bind="items.spot[0]"></td>
+        <td class="table-area-col2" data-bind="items.spot[1]"></td>
+    </tr>
+</table>
+
+<table class="table-forecast">
+    <tr class="table-tempMax">
+        <td class="table-tempMax-col0" align="right">気温(℃)</td>
+        <td class="table-tempMax-col1">
+            <span data-bind="items.tempsMin[0]"></span>/<span data-bind="items.tempsMax[0]"></span>
+        </td>
+        <td class="table-tempMax-col2">
+            <span data-bind="items.tempsMin[1]"></span>/<span data-bind="items.tempsMax[1]"></span>
+        </td>
+        <td class="table-tempMax-col3">
+            <span data-bind="items.tempsMin[2]"></span>/<span data-bind="items.tempsMax[2]"></span>
+        </td>
+        <td class="table-tempMax-col4">
+            <span data-bind="items.tempsMin[3]"></span>/<span data-bind="items.tempsMax[3]"></span>
+        </td>
+        <td class="table-tempMax-col5">
+            <span data-bind="items.tempsMin[4]"></span>/<span data-bind="items.tempsMax[4]"></span>
+        </td>
+        <td class="table-tempMax-col6">
+            <span data-bind="items.tempsMin[5]"></span>/<span data-bind="items.tempsMax[5]"></span>
+        </td>
+        <td class="table-tempMax-col7">
+            <span data-bind="items.tempsMin[6]"></span>/<span data-bind="items.tempsMax[6]"></span>
+        </td>
+        <td class="table-tempMax-col8">
+            <span data-bind="items.tempsMin[7]"></span>/<span data-bind="items.tempsMax[7]"></span>
+        </td>
+    </tr>
+</table>
