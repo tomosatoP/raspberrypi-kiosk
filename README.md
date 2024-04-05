@@ -1,6 +1,9 @@
 # KIOSK 端末
 
 [Raspberry Pi](Raspberrypi.md) を使った KIOSK 端末
+
+![screenshot](images/screenshot.png)
+
 - 時刻表示
 - 室内環境 \[温度・湿度・気圧\] 表示を複数個所切替
 - 指定地域の AMeDAS データ表示
