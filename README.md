@@ -38,3 +38,6 @@ docker compose down --rmi all
 docker compose build --pull --no-cache
 docker compose run --entrypoint "bundle" kiosk
 ~~~
+
+---
+ruby 3.4 以降では、`base64` を Gemfile に追記
